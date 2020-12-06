@@ -19,18 +19,37 @@
         <div class="jumbotron" style="background-image: url('bg.png');">
             <div class="tm-bg-img">
                 <div class="tm-bg-white">
+                    <div class="form-group tm-form-element tm-form-element-2">                                            
+                        <select name="kriptoo" class="form-control tm-select" id="endep">
+                            <option value="0">Enkripsi</option>
+                            <option value="1">Dekripsi</option>
+                        </select>
+                    </div>
+                    <div class="form-group tm-form-element tm-form-element-2">                                            
+                        <select name="K" class="form-control tm-select" id="k">
+                            <option value="0">3</option>
+                            <option value="1">4</option>
+                            <option value="2">5</option>
+                            <option value="3">6</option>
+                            <option value="4">7</option>
+                            <option value="5">8</option>
+                            <option value="6">9</option>
+                            <option value="7">10</option>
+                        </select>
+                    </div>
                     <input class='input' type="text" name="myInput" placeholder="Masukkan Kata">
                     <button class="button">Go</button><br><br>
                     <div class="img-box">
-                            <p>Deciphered Word</p>
-                            <hr size="2">
-                            <p id="answer"></p>
-                        </div>
+                        <p>Deciphered Word</p>
+                        <hr size="2">
+                        <p id="answer"></p>
                     </div>
                 </div>
             </div>
-            
+        </div>
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <script  src="./scriptdiagonal.js"></script>
+
     </body>
 </html>
