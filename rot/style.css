@@ -1,0 +1,52 @@
+#answer{
+    background-color: rgb(243, 215, 215);
+}
+.header{
+  background-color : rgb(56, 115, 129);
+  font-family: 'Lilita One', cursive;
+  color: rgb(33, 39, 46);
+  padding: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.body{
+    align-self: center;
+}
+.input{
+    height: 40px;
+    width: 400px;
+    border-radius: 7px;
+    font-family: 'Syne', sans-serif;
+}
+.button{
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Lilita One', cursive;
+    background-color : rgb(56, 115, 129);
+    border-color: rgb(56, 115, 129);
+    width : 300px;
+}
+.img-box{
+    background-color:rgb(106, 154, 167);
+    border-radius: 6px;
+    display: block;
+    font-family: 'Syne', sans-serif;
+    height: 100px;
+    width: 400px;
+    position: relative;
+    text-align: center;
+}
+.tm-bg-img {
+	background-position: center center;
+	background-repeat: repeat;
+	background-size: cover;
+	display: flex;
+    -webkit-box-align: center;
+    justify-content: center;
+}
+.tm-bg-white { 
+    background: white;
+    padding: 100px; 
+}
+.tm-search-form .tm-form-element-2 { width: 25%; }
+.tm-search-form-row { width: 900px; }
