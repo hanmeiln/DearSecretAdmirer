@@ -117,12 +117,12 @@ $(document).ready(function() {
   $(".button").mouseenter(function() {
     $(".button").height("40px");
     $(".button").width("300px");
-    $(".button").css("background-color", "rgb(56, 115, 129)");
+    $(".button").css("background-color", "#3a563e");
   });
   $(".button").mouseleave(function() {
     $(".button").height("40px");
     $(".button").width("300px");
-    $(".button").css("background-color", "rgb(56, 115, 129)");
+    $(".button").css("background-color", "#3a563e");
   });
   $(".button").click(function() {
     $(".img-box").fadeIn(1000);

@@ -2,9 +2,9 @@
     background-color: rgb(243, 215, 215);
 }
 .header{
-  background-color : rgb(56, 115, 129);
+  background-color : #3a563e;
   font-family: 'Lilita One', cursive;
-  color: rgb(33, 39, 46);
+  color: #141b15);
   padding: 60px;
   text-align: center;
   font-weight: bold;
@@ -22,12 +22,12 @@
     height: 40px;
     border-radius: 5px;
     font-family: 'Lilita One', cursive;
-    background-color : rgb(56, 115, 129);
-    border-color: rgb(56, 115, 129);
+    background-color : #3a563e;
+    border-color: #3a563e;
     width : 300px;
 }
 .img-box{
-    background-color:rgb(106, 154, 167);
+    background-color:#3a563e;
     border-radius: 6px;
     display: block;
     font-family: 'Syne', sans-serif;
